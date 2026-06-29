@@ -40,33 +40,7 @@ public class Runner {
             System.out.println("Enter more text");
 
         }
-        /*
-        while (true) {
-
-            if (input.isEmpty()) {
-                break;
-            }
-
-            Matcher matcher = pattern.matcher(input);
-
-            
-            if (matcher.find()) {
-                for (int i = 0; i < matcher.groupCount(); i++) {
-                    System.out.println(matcher.group(i));
-                    matcher.find();
-                }
-
-            }
-            else {
-                System.out.println("No matches found!");
-            }
-            
-
-            System.out.println("Enter more text: ");
-            input = sc.nextLine();
-        }
-        */
-
+        
         sc.close();
     }
 }
